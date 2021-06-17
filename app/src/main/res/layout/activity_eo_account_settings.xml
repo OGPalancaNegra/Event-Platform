@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="Activities.egAccountSettings">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/relativeLayout1">
+
+
+            <androidx.appcompat.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_alignParentTop="true">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/back_icon"
+                        android:id="@+id/edit_profile_backicon">
+
+                    </ImageView>
+
+
+
+
+                    <ImageView
+                        android:id="@+id/edit_profile_save_image"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/done_icon"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="10dp"
+                        >
+
+
+
+                    </ImageView>
+
+                </RelativeLayout>
+
+
+            </androidx.appcompat.widget.Toolbar>
+
+
+
+
+        </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_below="@id/relativeLayout1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="20dp">
+
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="120dp"
+                        android:layout_height="120dp"
+                        android:id="@+id/profilePhoto2"
+                        android:layout_marginTop="20dp"
+                        android:layout_centerHorizontal="true"
+
+                        >
+
+                    </de.hdodenhof.circleimageview.CircleImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Change Photo"
+                        android:id="@+id/changeProfilePhoto"
+                        android:layout_below="@+id/profilePhoto2"
+                        android:layout_centerHorizontal="true">
+
+
+                    </TextView>
+
+
+
+                    <!-- Display Section -->
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_below="@+id/changeProfilePhoto"
+                        android:layout_marginTop="50dp"
+                        android:id="@+id/relativeLayout5">
+
+                        <ImageView
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:src="@drawable/name_icon"
+                            android:layout_centerVertical="true">
+
+                        </ImageView>
+
+
+                        <EditText
+                            android:id="@+id/edit_name_text_view2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginStart="40dp"
+                            android:hint="Name"
+                            android:background="@color/white"
+                            android:inputType="textPersonName"
+
+                            >
+
+                        </EditText>
+
+
+                    </RelativeLayout>
+
+                    <!-- email Section -->
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_below="@+id/relativeLayout5"
+
+                        android:id="@+id/relativeLayout6">
+
+                        <ImageView
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:src="@drawable/email_icon"
+                            android:layout_centerVertical="true">
+
+                        </ImageView>
+
+
+                        <EditText
+                            android:id="@+id/edit_email_text_view2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginStart="40dp"
+                            android:hint="Email"
+                            android:background="@color/white"
+                            android:inputType="textEmailAddress"
+
+
+                            >
+
+                        </EditText>
+
+
+                    </RelativeLayout>
+
+                    <!-- extra Section -->
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_below="@+id/relativeLayout6"
+
+                        android:id="@+id/relativeLayout7">
+
+                        <ImageView
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:src="@drawable/password_icon"
+                            android:layout_centerVertical="true">
+
+                        </ImageView>
+
+
+                        <EditText
+                            android:id="@+id/edit_profile_password2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginStart="40dp"
+                            android:hint="Password"
+                            android:background="@color/white"
+                            android:inputType="textPassword"
+
+
+                            >
+
+                        </EditText>
+
+
+                    </RelativeLayout>
+
+
+                    <Button
+
+                        android:id="@+id/signoutbtn"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/relativeLayout7"
+                        android:text="Logout"
+                        android:layout_marginTop="50dp">
+
+                    </Button>
+
+                </RelativeLayout>
+
+        </RelativeLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

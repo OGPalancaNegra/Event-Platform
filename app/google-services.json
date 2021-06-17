@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "153962243274",
+    "project_id": "alceu-events",
+    "storage_bucket": "alceu-events.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:153962243274:android:090fa4c52175f03bd4c033",
+        "android_client_info": {
+          "package_name": "com.example.eventplatform"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "153962243274-q7j93lue5br7325jluriuvq6ddm3rq3v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCt3go7MHevFJv94CKjBP1ThPszafRBosA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "153962243274-q7j93lue5br7325jluriuvq6ddm3rq3v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

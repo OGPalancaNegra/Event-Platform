@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="Activities.eoMainActivity"
+    android:layout_gravity="center"
+    android:background="@color/lightgrey1"
+    android:id="@+id/container">
+
+    <include layout="@layout/fragment_toolbar"></include>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/content_layout">
+
+
+
+    <LinearLayout
+        android:layout_below="@+id/AppBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:id="@+id/verLinLayout1">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/circleImageView"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginEnd="20dp"
+            >
+
+        </de.hdodenhof.circleimageview.CircleImageView>
+
+
+
+
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="28dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/circleImageView"
+            app:layout_constraintTop_toBottomOf="@+id/circleImageView">
+
+        </TextView>
+
+
+
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_marginRight="20dp"
+                >
+
+                <TextView
+                    android:id="@+id/user_recipe_count"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:textColor="@color/black"
+
+                    android:textAlignment="center"
+                    />
+
+                <TextView
+                    android:id="@+id/recipeText"
+                    android:layout_width="86dp"
+                    android:layout_height="34dp"
+                    android:text="Events"
+                    android:textAlignment="center"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_marginRight="20dp">
+
+                <TextView
+                    android:id="@+id/user_follower_count"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:textColor="@color/black"
+
+                    android:textAlignment="center"
+
+                    />
+
+                <TextView
+                    android:id="@+id/followerText"
+                    android:layout_width="86dp"
+                    android:layout_height="34dp"
+                    android:textAlignment="center"
+                    android:text="Followers"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/ticket_sold"
+                    android:textColor="@color/black"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:textAlignment="center"
+                    android:text="0"
+
+                    />
+
+                <TextView
+                    android:id="@+id/tickets_sold_txt"
+                    android:layout_width="86dp"
+                    android:layout_height="34dp"
+                    android:textAlignment="center"
+                    android:text="Tickets Sold"
+                    />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/verLinLayout1"
+        android:id="@+id/eo_recycler_view"
+        tools:listitem="@layout/eo_event"
+
+        >
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    </RelativeLayout>
+
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/createEventsButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:backgroundTint="@color/bluelight"
+            android:contentDescription="Create Event"
+
+
+            >
+
+        </com.google.android.material.floatingactionbutton.FloatingActionButton>
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+</RelativeLayout>
