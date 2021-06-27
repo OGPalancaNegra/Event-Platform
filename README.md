@@ -1,3 +1,4 @@
+![user selection](https://user-images.githubusercontent.com/56201348/123561031-04302200-d79e-11eb-9eb2-8895d2f2fb51.jpg)
 # Event-Platform - MVVM, Databinding, Firebase
 An Event platform that allows event organizers to create events to sell to propective event goers and facilitate event goers event finding process by displaying events from users they follow directly onto their homepage.
 # Features
