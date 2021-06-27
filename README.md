@@ -13,3 +13,6 @@ An Event platform that allows event organizers to create events to sell to prope
 * Display information such as number of followers, following and ticket count in Users Profile
 * Allow Event Goers to buy tickets to Events
 * Allow Event Goers to view bought tickets
+# Technical Feature
+MVVM Architecture is implemented with Jet Pack Libraries Databinding and Live Data
+# App Packages
