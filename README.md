@@ -39,3 +39,11 @@ MVVM Architecture is implemented with Jet Pack Libraries Databinding and Live Da
 
 ![user home](https://user-images.githubusercontent.com/56201348/123561296-57ef3b00-d79f-11eb-8183-6b01b2df857c.jpg)![user search](https://user-images.githubusercontent.com/56201348/123561301-663d5700-d79f-11eb-87d4-eac0c809f796.jpg)
 
+![user profile](https://user-images.githubusercontent.com/56201348/123561305-72c1af80-d79f-11eb-840c-6272b49e38ab.jpg)
+
+![profile ](https://user-images.githubusercontent.com/56201348/123561311-76edcd00-d79f-11eb-92ec-fbbab1003320.jpg)
+
+![individual event](https://user-images.githubusercontent.com/56201348/123561316-840abc00-d79f-11eb-9349-53e22a99f3d8.jpg)
+![checkout screen](https://user-images.githubusercontent.com/56201348/123561317-866d1600-d79f-11eb-846c-4357d10685d2.jpg)
+
+
