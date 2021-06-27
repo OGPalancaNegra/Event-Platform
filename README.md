@@ -1,4 +1,5 @@
 
+
 # Event-Platform - MVVM, Databinding, Firebase
 An Event platform that allows event organizers to create events to sell to propective event goers and facilitate event goers event finding process by displaying events from users they follow directly onto their homepage.
 # Features
@@ -36,4 +37,5 @@ MVVM Architecture is implemented with Jet Pack Libraries Databinding and Live Da
 ![create events](https://user-images.githubusercontent.com/56201348/123561097-73a61180-d79e-11eb-943b-7f2557ff672b.jpg)
 ![event organizer display](https://user-images.githubusercontent.com/56201348/123561090-625d0500-d79e-11eb-833e-bb173946b6ba.jpg)
 
+![user home](https://user-images.githubusercontent.com/56201348/123561296-57ef3b00-d79f-11eb-8183-6b01b2df857c.jpg)![user search](https://user-images.githubusercontent.com/56201348/123561301-663d5700-d79f-11eb-87d4-eac0c809f796.jpg)
 
