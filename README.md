@@ -30,12 +30,10 @@ MVVM Architecture is implemented with Jet Pack Libraries Databinding and Live Da
 * Glide Library
 * Hdodenhof Circular Image
 # App Images
-* User Selection Screen
 ![user selection](https://user-images.githubusercontent.com/56201348/123561068-422d4600-d79e-11eb-8139-2dba1f69331f.jpg)
-* Event Organizer Create Event
-![create events](https://user-images.githubusercontent.com/56201348/123561097-73a61180-d79e-11eb-943b-7f2557ff672b.jpg)
+![login screen](https://user-images.githubusercontent.com/56201348/123561276-4148e400-d79f-11eb-8ca7-e32a4b3098dd.jpg)
 
-*  Event Organizer Display
+![create events](https://user-images.githubusercontent.com/56201348/123561097-73a61180-d79e-11eb-943b-7f2557ff672b.jpg)
 ![event organizer display](https://user-images.githubusercontent.com/56201348/123561090-625d0500-d79e-11eb-833e-bb173946b6ba.jpg)
 
 
