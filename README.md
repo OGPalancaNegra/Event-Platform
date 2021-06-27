@@ -22,3 +22,9 @@ MVVM Architecture is implemented with Jet Pack Libraries Databinding and Live Da
 * Organizer: To hold all the files related to the event organizer
 * Repoistory: To hold firebase functions
 * Utils: To hold utility files
+# Library Reference
+* Jetpack Databinding 
+* JetPack Lifecycle
+* Picasso Librabry
+* Glide Library
+* Hdodenhof Circular Image
