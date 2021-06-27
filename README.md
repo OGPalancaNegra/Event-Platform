@@ -16,3 +16,9 @@ An Event platform that allows event organizers to create events to sell to prope
 # Technical Feature
 MVVM Architecture is implemented with Jet Pack Libraries Databinding and Live Data
 # App Packages
+* Activities: Package to hold all the activities of app
+* Adapters: To hold all the adapters used in the application
+* Goer: To hold all the files related to the Event Goer
+* Organizer: To hold all the files related to the event organizer
+* Repoistory: To hold firebase functions
+* Utils: To hold utility files
